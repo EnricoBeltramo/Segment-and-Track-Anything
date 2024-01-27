@@ -10,6 +10,7 @@ pip install numpy opencv-python pycocotools matplotlib Pillow==9.2.0 scikit-imag
 pip install gradio==3.39.0 zip gdown ffmpeg==1.4
 
 # Install Pytorch Correlation
+export TORCH_CUDA_ARCH_LIST="6.1+PTX"
 git clone https://github.com/ClementPinard/Pytorch-Correlation-extension.git
 cd Pytorch-Correlation-extension
 python setup.py install
